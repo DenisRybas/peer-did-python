@@ -22,7 +22,7 @@ jobs:
         run: |
           black --check .
   flake8_py3:
-    needs: [ format ]
+    needs: format
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
