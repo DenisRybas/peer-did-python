@@ -1,5 +1,5 @@
-import json
 import re
+import json
 from typing import List, Optional
 
 from peerdid.peer_did_utils import (
