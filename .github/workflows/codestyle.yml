@@ -17,7 +17,7 @@ jobs:
           python-version: 3.6
       - name: Install black
         run: |
-          pip install black==20.8b1
+          pip install black
       - name: Black Format Check
         run: |
           black --check .
